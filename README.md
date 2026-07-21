@@ -12,10 +12,8 @@ Keep `index.html`, `styles.css`, `app.js`, and `assets/` together.
 
 ## GitHub Pages
 
-The repository workflow at `.github/workflows/pages.yml` publishes this exact
-directory. In GitHub, open **Settings → Pages** and set **Source** to
-**GitHub Actions** once. Pushes to `main` that change `landing/` then update the
-site automatically.
+The public mirror at `tomislavrupic/ALi-Imagine-site` publishes this exact
+directory through GitHub Actions. The application repository can remain private.
 
 Expected URL:
 
@@ -25,5 +23,5 @@ https://tomislavrupic.github.io/ALi-Imagine-site/
 
 ## Release link
 
-The main download buttons point to the latest GitHub Release. Publish the DMG
-as a release asset to keep the landing page stable across future versions.
+The main download buttons point to the latest release in the public landing
+repository so visitors do not need access to the private application source.
