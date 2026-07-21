@@ -3,9 +3,6 @@ name: Publish ALi Imagine landing page
 on:
   push:
     branches: [main]
-    paths:
-      - "landing/**"
-      - ".github/workflows/pages.yml"
   workflow_dispatch:
 
 permissions:
