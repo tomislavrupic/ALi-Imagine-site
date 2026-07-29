@@ -21,11 +21,11 @@ https://github.com/tomislavrupic/ALi-Imagine-site/releases/tag/v0.4.9
 Size:
 
 ```text
-9,556,771 bytes
+9,586,528 bytes
 ```
 
 SHA-256:
 
 ```text
-6292879ba0c7695b2c381b643650dc8b7ffe04d2247e402f22e583b19e5a1e2a
+c4bd383957dbe0458dfc253069b1cddb96f03acca381245566f530a0355dac76
 ```

@@ -12,6 +12,10 @@ certification, API key, or existing project is present.
 - Added a zero-install **Explore Interface** path.
 - Made xAI Grok the safe optional cloud path after adding an API key.
 - Deferred LTX, Krea, FLUX, Hugging Face, and media discovery until needed.
+- Prevented Library navigation from re-hashing multi-gigabyte model assets on
+  the UI path.
+- Moved local capability checks off the Tauri command thread so page changes
+  remain responsive.
 - Preserved existing projects and local-engine installations.
 
 ### Installation
