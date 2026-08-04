@@ -13,6 +13,7 @@
   --green: #15d69b;
   --cyan: #58c4e5;
   --blue: #75a6ff;
+  --violet: #bd86ff;
   --display: "Iowan Old Style", "Baskerville", "Times New Roman", serif;
   --ui: "Avenir Next Condensed", "DIN Condensed", "Helvetica Neue", sans-serif;
   --mono: "SFMono-Regular", "Cascadia Mono", "Roboto Mono", Menlo, monospace;
@@ -283,8 +284,10 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .engine-list article { min-height: 176px; padding: 28px 20px; border-bottom: 1px solid var(--line); display: grid; grid-template-columns: 70px 180px 1fr 2.1fr 260px; align-items: center; gap: 20px; }
 .engine-signal { width: 34px; height: 34px; margin-left: 5px; border: 1px solid currentColor; transform: rotate(45deg); box-shadow: 0 0 28px currentColor; opacity: 0.75; }
 .engine-signal.cyan { color: var(--cyan); }
+.engine-signal.blue { color: var(--blue); }
 .engine-signal.orange { color: var(--orange); }
 .engine-signal.green { color: var(--green); }
+.engine-signal.violet { color: var(--violet); }
 .engine-list h3 { margin: 0; font: 400 30px/1 var(--display); }
 .engine-list p { margin: 0; color: var(--muted); font-size: 15px; line-height: 1.55; }
 .engine-list small { color: var(--faint); font: 8px/1.5 var(--mono); text-align: right; }
