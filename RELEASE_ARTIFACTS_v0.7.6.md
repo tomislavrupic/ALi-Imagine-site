@@ -15,13 +15,13 @@ https://github.com/tomislavrupic/ALi-Imagine-site/releases/tag/v0.7.6
 Size:
 
 ```text
-11,044,994 bytes
+11,043,848 bytes
 ```
 
 SHA-256:
 
 ```text
-d852bd17c76c0ad9895b94c1a1673a2356b6816507d340cc023926abe5d000a7
+bf23476bafbb3be5c06fdc230843e93e67d0a5d2f4f6a6688604ec2c705febd6
 ```
 
 Verification:
