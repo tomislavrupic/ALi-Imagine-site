@@ -345,6 +345,8 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .download-panel { padding: clamp(38px, 6vw, 86px); border: 1px solid var(--line-bright); background: linear-gradient(120deg, rgba(16,30,37,0.94), rgba(6,12,16,0.96)); display: grid; grid-template-columns: 1.3fr 0.8fr; gap: 55px 90px; position: relative; overflow: hidden; }
 .download-panel::after { content: ""; position: absolute; width: 420px; height: 420px; right: -170px; bottom: -250px; border: 1px solid rgba(86,157,255,0.24); transform: rotate(45deg); box-shadow: 0 0 70px rgba(86,157,255,0.12); }
 .download h2 { margin-bottom: 24px; }
+.release-trust { margin-top: 20px !important; padding: 14px 16px; border-left: 2px solid var(--coral); background: rgba(255, 105, 82, 0.07); color: var(--text) !important; font: 600 11px/1.65 var(--mono) !important; letter-spacing: 0.06em; text-transform: uppercase; }
+.release-trust strong { color: var(--coral); margin-right: 8px; }
 .install-steps { display: grid; align-content: center; }
 .install-steps span { padding: 17px 0; border-bottom: 1px solid var(--line); color: #abb6ba; font: 10px/1.4 var(--mono); }
 .install-steps b { display: inline-block; width: 40px; color: var(--orange); }
