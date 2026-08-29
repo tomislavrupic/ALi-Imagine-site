@@ -1,11 +1,11 @@
 {
-  "version": "0.8.15",
-  "notes": "Simplified System typography and LoRA cards. Installed CEL Character adapters now expose a direct Use CEL Character action that opens the correct LTX 2.5 workflow. Duplicate diagnostics and persistent success messages were removed.",
-  "pub_date": "2026-08-29T09:31:14Z",
+  "version": "0.9.0",
+  "notes": "First trusted ALi release: Developer ID signed and Apple notarized. Blue-first studio styling, Gallery language, current LTX 2.5 workflow, recoverable renders, and signed updater artifacts.",
+  "pub_date": "2026-08-29T11:48:00Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTU1dDS0Vxc1pTUzhWaEhGOVRnZjZGR1dySG16bitTODRub1FuRTFlOUlTeGFUdmtGeWJmbTJjMmFDU3EzV042RmVzWklWeUxiSjJ1emhNVjlZdTJKcjRhalZyZDZrRGcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3OTk1ODcwCWZpbGU6QUxpLUltYWdpbmUuYXBwLnRhci5negpSMWF4cWt6UjgzLzFCZnRGdEVaK2U2RmdjUmlJbEFGOUswazZDYy9ucyt0dlVNdE1wTllmOVhZMkJaYVBpbE4waytDV1phTHVJM0dKanR4MW82MHpCUT09Cg==",
-      "url": "https://github.com/tomislavrupic/ALi-Imagine-site/releases/download/v0.8.15/ALi-Imagine.app.tar.gz"
+      "signature": "ZFc1MGNuVnpkR1ZrSUdOdmJXMWxiblE2SUhOcFoyNWhkSFZ5WlNCbWNtOXRJSFJoZFhKcElITmxZM0psZENCclpYa0tVbFZUVTFkRFMwVnhjMXBUVTNnNWVrZG9ZbGhKUjBwV01IWlpURXc0V0ZCamRFWjFSa2xLYUdWUFVrRTNhRnBYTkhkdWFqTXpTSFZLTDNFdk1ERXlSRloyUVZOMlQzaDRWM2xyVWpWSFNGcHpaV1JWT1c1amIyUkxNbkJZYVVGaldsRkpQUXAwY25WemRHVmtJR052YlcxbGJuUTZJSFJwYldWemRHRnRjRG94TnpnNE1EQTBNRFExQ1dacGJHVTZRVXhwTFVsdFlXZHBibVV1WVhCd0xuUmhjaTVuZWdwd1F5dGtRMnBGTjBOUWN6VkljVUp2VjFRMlZ6SnpNRVZIVXpoeGRrVXllWEJMUzJSVllVcDRhVzFrTURaNVlWVmpjREV5VDNaNFdIcDZUaXRYVkVoclF6WXJTVk51Y0hvMFRuWnlhMFp5UnpoWVdIRkJaejA5Q2c9PQ==",
+      "url": "https://github.com/tomislavrupic/ALi-Imagine-site/releases/download/v0.9.0/ALi-Imagine.app.tar.gz"
     }
   }
 }
