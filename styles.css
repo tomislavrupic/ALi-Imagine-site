@@ -118,6 +118,94 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .button small { color: rgba(255,255,255,0.65); font-size: 9px; letter-spacing: 0.08em; }
 .button-primary { background: linear-gradient(110deg, #123c5a, #146f83 58%, #17665e); border-color: #4caecc; box-shadow: 0 0 26px rgba(76, 174, 204, 0.12); }
 .button-primary:hover { background: linear-gradient(110deg, #184d70, #168b98 58%, #21816d); }
+.button-download {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  background: linear-gradient(108deg, #123c5a 0%, #146f83 54%, #17665e 100%);
+  border-color: #4caecc;
+  box-shadow: 0 0 26px rgba(76, 174, 204, 0.12), inset 0 0 22px rgba(113, 205, 240, 0.04);
+}
+.button-download::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: linear-gradient(108deg, transparent 18%, rgba(155, 232, 255, 0.1) 42%, rgba(122, 255, 214, 0.18) 50%, transparent 68%);
+  transform: translateX(-115%);
+  animation: button-sweep 7s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}
+.button-download::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 11rem;
+  aspect-ratio: 1;
+  right: -4.5rem;
+  top: 50%;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(108, 232, 255, 0.22), rgba(49, 196, 173, 0.08) 42%, transparent 70%);
+  filter: blur(2px);
+  transform: translateY(-50%);
+  animation: button-breathe 4.8s ease-in-out infinite;
+}
+.button-download > * { position: relative; z-index: 1; }
+.button-download:hover {
+  background: linear-gradient(108deg, #184d70 0%, #168b98 54%, #21816d 100%);
+  border-color: #72c9f3;
+  box-shadow: 0 0 34px rgba(76, 174, 204, 0.2), inset 0 0 26px rgba(122, 255, 214, 0.06);
+}
+.button-download:active { transform: translateY(0); }
+.button-signal {
+  position: relative;
+  display: inline-block;
+  flex: 0 0 30px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgba(179, 232, 255, 0.52);
+  border-radius: 50%;
+  box-shadow: 0 0 12px rgba(93, 211, 239, 0.25);
+}
+.button-signal::before,
+.button-signal::after {
+  content: "";
+  position: absolute;
+  inset: 6px -4px;
+  border: 1px solid rgba(161, 224, 243, 0.46);
+  border-radius: 50%;
+  transform: rotate(-26deg) scaleY(0.52);
+  animation: button-orbit 5.2s linear infinite;
+}
+.button-signal::after {
+  inset: 2px 4px;
+  border-color: rgba(109, 255, 214, 0.28);
+  transform: rotate(62deg) scaleY(0.6);
+  animation-direction: reverse;
+  animation-duration: 7s;
+}
+.button-signal i {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  top: 3px;
+  left: 50%;
+  border-radius: 50%;
+  background: #b7f1ff;
+  box-shadow: 0 0 8px #72d9f5;
+  transform: translateX(-50%);
+  animation: button-flicker 2.8s ease-in-out infinite;
+}
+.button-signal i + i {
+  top: auto;
+  bottom: 2px;
+  left: 22px;
+  width: 3px;
+  height: 3px;
+  background: #6dffd6;
+  box-shadow: 0 0 8px #6dffd6;
+  animation-delay: -1.2s;
+}
+.header-cta.button-download { padding: 13px 18px; }
 .button-quiet { color: var(--muted); }
 .button-quiet:hover { color: var(--ink); border-color: var(--muted); }
 .hero-specs { margin-top: 38px; padding-top: 20px; border-top: 1px solid var(--line); display: flex; flex-wrap: wrap; gap: 16px 31px; color: var(--muted); font: 10px/1.4 var(--mono); letter-spacing: 0.06em; }
@@ -219,7 +307,8 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .segment span { color: var(--faint); }
 .signal-text { min-height: 160px; margin-bottom: 28px; padding: 15px; border: 1px solid var(--line); color: #b7c1c4; font: 10px/1.65 var(--mono); }
 .setting-row { border: 1px solid var(--line); display: flex; justify-content: space-between; padding: 14px; color: var(--muted); font: 9px/1 var(--mono); }
-.generate-bar { margin-top: 28px; min-height: 56px; padding: 0 18px; background: linear-gradient(100deg, #932a21, #c43b2c); display: flex; align-items: center; justify-content: space-between; font: 600 11px/1 var(--mono); letter-spacing: 0.08em; }
+.generate-bar { margin-top: 28px; min-height: 56px; padding: 0 18px; display: flex; align-items: center; justify-content: space-between; gap: 12px; font: 600 11px/1 var(--mono); letter-spacing: 0.08em; }
+.generate-bar .button-signal { flex-basis: 26px; width: 26px; height: 26px; }
 .shell-stage { min-width: 0; padding: 23px; display: grid; grid-template-rows: auto 1fr auto; background: linear-gradient(rgba(4,9,12,0.3), rgba(4,9,12,0.3)), repeating-linear-gradient(0deg, transparent 0 39px, rgba(53,83,94,0.1) 40px), repeating-linear-gradient(90deg, transparent 0 39px, rgba(53,83,94,0.1) 40px); }
 .stage-label { display: flex; align-items: baseline; justify-content: space-between; font: 9px/1 var(--mono); color: var(--muted); }
 .stage-label b { color: var(--ink); font: 400 31px/1 var(--display); letter-spacing: 0.02em; }
@@ -363,6 +452,20 @@ footer a:hover { color: var(--ink); }
 .js .reveal { opacity: 0; transform: translateY(18px); transition: opacity 600ms ease, transform 600ms ease; }
 .js .reveal.visible { opacity: 1; transform: none; }
 @keyframes orbit { to { rotate: 360deg; } }
+@keyframes button-sweep {
+  0%, 26% { transform: translateX(-115%); }
+  58%, 100% { transform: translateX(115%); }
+}
+@keyframes button-breathe {
+  0%, 100% { opacity: 0.48; scale: 0.86; }
+  50% { opacity: 0.92; scale: 1.06; }
+}
+@keyframes button-orbit { to { rotate: 360deg; } }
+@keyframes button-flicker {
+  0%, 100% { opacity: 0.48; scale: 0.8; }
+  42% { opacity: 1; scale: 1.15; }
+  56% { opacity: 0.68; scale: 0.95; }
+}
 
 @media (max-width: 1100px) {
   .site-header nav { display: none; }
