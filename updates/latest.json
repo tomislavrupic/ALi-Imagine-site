@@ -1,11 +1,11 @@
 {
-  "version": "0.8.14",
-  "notes": "Updater test preview: resilient long-video LTX 2.5 upscale, non-autoplay gallery selection, visible CEL adapter downloads, LTX FX rack, and refined footer update control.",
-  "pub_date": "2026-08-29T08:54:32Z",
+  "version": "0.8.15",
+  "notes": "Simplified System typography and LoRA cards. Installed CEL Character adapters now expose a direct Use CEL Character action that opens the correct LTX 2.5 workflow. Duplicate diagnostics and persistent success messages were removed.",
+  "pub_date": "2026-08-29T09:31:14Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTU1dDS0Vxc1pTUzd1Z0JGY2ovSkJtRGVsd1l4QWlMRVovT3JRMHNpd0NtczBJZmZWUURSai9TZTEyOFNLckl4dERaU3B2L2xlakVrSHpkazdzbDdnM0Z2enE2dzFXbGdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3OTkzNjY2CWZpbGU6QUxpLUltYWdpbmUuYXBwLnRhci5negp6clNpYlVLQUNrTmJsYUJ1dDFETm9KUmVZNWowNzR5NzZlMnZjMWtCVUhTaUdxS2hDUmRPSU5xc1BISTNoejIyT2ZFS0JKQTVET2FoNVFpcFlFN21CUT09Cg==",
-      "url": "https://github.com/tomislavrupic/ALi-Imagine-site/releases/download/v0.8.14/ALi-Imagine.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTU1dDS0Vxc1pTUzhWaEhGOVRnZjZGR1dySG16bitTODRub1FuRTFlOUlTeGFUdmtGeWJmbTJjMmFDU3EzV042RmVzWklWeUxiSjJ1emhNVjlZdTJKcjRhalZyZDZrRGcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3OTk1ODcwCWZpbGU6QUxpLUltYWdpbmUuYXBwLnRhci5negpSMWF4cWt6UjgzLzFCZnRGdEVaK2U2RmdjUmlJbEFGOUswazZDYy9ucyt0dlVNdE1wTllmOVhZMkJaYVBpbE4waytDV1phTHVJM0dKanR4MW82MHpCUT09Cg==",
+      "url": "https://github.com/tomislavrupic/ALi-Imagine-site/releases/download/v0.8.15/ALi-Imagine.app.tar.gz"
     }
   }
 }
