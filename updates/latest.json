@@ -1,11 +1,11 @@
 {
-  "version": "0.9.0",
-  "notes": "First trusted ALi release: Developer ID signed and Apple notarized. Blue-first studio styling, Gallery language, current LTX 2.5 workflow, recoverable renders, and signed updater artifacts.",
-  "pub_date": "2026-08-29T11:48:00Z",
+  "version": "0.9.1",
+  "notes": "Experimental Re-Frame 3D preview: open 3D directly from an image or paused video frame, navigate a real local Gaussian scene, let Qwen analyze the untouched original, and reconstruct with FLUX.2 dual-reference conditioning. Re-Frame working artifacts stay out of the normal Library.",
+  "pub_date": "2026-08-30T15:41:52Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTU1dDS0Vxc1pTU3g5ekdoYlhJR0pWMHZZTEw4WFBjdEZ1RklKaGVPUkE3aFpXNHduajMzSHVKL3EvMDEyRFZ2QVN2T3h4V3lrUjVHSFpzZWRVOW5jb2RLMnBYaUFjWlFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MDA0MDQ1CWZpbGU6QUxpLUltYWdpbmUuYXBwLnRhci5negpwQytkQ2pFN0NQczVIcUJvV1Q2VzJzMEVHUzhxdkUyeXBLS2RVYUp4aW1kMDZ5YVVjcDEyT3Z4WHp6TitXVEhrQzYrSVNucHo0TnZya0ZyRzhYWHFBZz09Cg==",
-      "url": "https://github.com/tomislavrupic/ALi-Imagine-site/releases/download/v0.9.0/ALi-Imagine.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTU1dDS0Vxc1pTU3kzUFVXYWxmV0lWMDFYaDNYL05EQXozQWJhc3Q3RHB3YjhPQW1sZ2U1OWZUdENqNjY4WEtLOEhRdUJNZGR1ZEtQZ3BQSDE1ZTFCQy9KRy9PcGVxMXdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MTA0NDMwCWZpbGU6QUxpLUltYWdpbmUuYXBwLnRhci5negpqeGpuQm50cndaWkdqUEZPVkFpWkR1TGpJdm96NWhUTHZsNUZzOThQYWpJTEoxMS9WSWh4MEcrOE1BUUpNYWxoelZObzNQVEJYTkZYSGc1L0ZKOHNDZz09Cg==",
+      "url": "https://github.com/tomislavrupic/ALi-Imagine-site/releases/download/v0.9.1/ALi-Imagine.app.tar.gz"
     }
   }
 }
