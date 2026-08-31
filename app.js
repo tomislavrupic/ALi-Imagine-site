@@ -22,3 +22,23 @@ window.addEventListener(
   () => header?.classList.toggle("scrolled", window.scrollY > 24),
   { passive: true },
 );
+
+document.querySelectorAll("[data-copy-address]").forEach((button) => {
+  button.addEventListener("click", async () => {
+    const address = button.getAttribute("data-copy-address");
+    const status = document.querySelector("[data-copy-status]");
+    if (!address) return;
+
+    try {
+      await navigator.clipboard.writeText(address);
+      button.textContent = "COPIED";
+      if (status) status.textContent = "ADDRESS COPIED";
+      window.setTimeout(() => {
+        button.textContent = "COPY CA";
+        if (status) status.textContent = "";
+      }, 2200);
+    } catch {
+      if (status) status.textContent = "SELECT + COPY THE ADDRESS ABOVE";
+    }
+  });
+});
