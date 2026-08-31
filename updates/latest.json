@@ -1,10 +1,10 @@
 {
   "version": "0.9.2",
-  "notes": "Faster media review, videos paused on their first frame, frame-grounded Qwen Refine for Audio Video, and a source-locked native LTX 2x path with smooth temporal overlaps and fail-closed seam validation.",
-  "pub_date": "2026-08-31T19:13:51Z",
+  "notes": "Faster media review, native-resolution lossless paused-frame capture with verified geometry, frame-grounded Qwen Refine for Audio Video, and a source-locked native LTX 2x path with smooth temporal overlaps and fail-closed seam validation.",
+  "pub_date": "2026-08-31T20:57:36Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTU1dDS0Vxc1pTU3k2a0lEU3k2RXI0bzJqb0FnMXZSa2pOQzVFWk1YM2hpNmdQTzNySlJ0RWtPZlluY0U2ZCtzZ1hNVnd5WmwwMlVZMTNDQ1pYQTZTUVNVa3dsRWdhRUFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MjAzNTE0CWZpbGU6QUxpLUltYWdpbmUuYXBwLnRhci5negpYN20wbXM3amV1Z2xsMkZtQlE4ZUhyUElCYlh1MHdOOWhhRS9ESm9YMkJCN1k3WnJIV1lLcnN5dWg1M1k4MjVnNFFkTFRVa01JYWQvV3BpK0xWUU1DQT09Cg==",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTU1dDS0Vxc1pTUzQ1QUNKNVppUUh2UWVRWUY5NFlXRUhodW1zcDE1ZTQ4TjVHU1pndnozWWZkdzZlRm9vNVVyMk4vd3F3dGNabGYyekV2ZU1jS2hKV21kdXhjcEVBZEFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MjA5NzQ4CWZpbGU6QUxpLUltYWdpbmUuYXBwLnRhci5negpqeXY1eUJQV1lUdEkzS3RwMitFc2hjVkFzc2ZxcFhTOUxORkNrUUV2SmVHS041YVVjWUdWbGRxbWtnVTZvQ3NUU1BZMWhqamdZbElpRC93YmpIclFEUT09Cg==",
       "url": "https://github.com/tomislavrupic/ALi-Imagine-site/releases/download/v0.9.2/ALi-Imagine.app.tar.gz"
     }
   }
