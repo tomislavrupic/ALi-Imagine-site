@@ -1,11 +1,11 @@
 {
-  "version": "0.9.2",
-  "notes": "Faster media review, native-resolution lossless paused-frame capture with verified geometry, frame-grounded Qwen Refine for Audio Video, and a source-locked native LTX 2x path with smooth temporal overlaps and fail-closed seam validation.",
-  "pub_date": "2026-08-31T20:57:36Z",
+  "version": "0.9.3",
+  "notes": "Spatial Take adds direct image or paused-video 3D entry, live Gaussian splats, subject-centered Cinema 4D-style camera controls, measured coverage, Qwen-grounded identity provenance, and camera-locked plate-only FLUX.2 reconstruction with linked three-way review.",
+  "pub_date": "2026-09-01T00:35:44Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTU1dDS0Vxc1pTUzQ1QUNKNVppUUh2UWVRWUY5NFlXRUhodW1zcDE1ZTQ4TjVHU1pndnozWWZkdzZlRm9vNVVyMk4vd3F3dGNabGYyekV2ZU1jS2hKV21kdXhjcEVBZEFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MjA5NzQ4CWZpbGU6QUxpLUltYWdpbmUuYXBwLnRhci5negpqeXY1eUJQV1lUdEkzS3RwMitFc2hjVkFzc2ZxcFhTOUxORkNrUUV2SmVHS041YVVjWUdWbGRxbWtnVTZvQ3NUU1BZMWhqamdZbElpRC93YmpIclFEUT09Cg==",
-      "url": "https://github.com/tomislavrupic/ALi-Imagine-site/releases/download/v0.9.2/ALi-Imagine.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTU1dDS0Vxc1pTUzJhMXcrQmdhV2VLazdxUHpnMHF0ZmxVaDJ0UnljTktNd3lhVjcxb0tZVVN3NitXRkkrZmh0UDk2ZFlmcWh4Q2I2Z053T1QrUElFQTFwNDNobHVYV2dzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MjIyODk3CWZpbGU6QUxpLUltYWdpbmUuYXBwLnRhci5negpuVWdLd25IMjZZMlZMTjZtQ2hhZkNjekpwcDg4c2VsRTBMaE16ZGp6dFRXQUJWSUtmQnlJZ3JZSFJJMmZhR3hQNXREWXAvQWNJK3g2dDc3dGo0OE5DQT09Cg==",
+      "url": "https://github.com/tomislavrupic/ALi-Imagine-site/releases/download/v0.9.3/ALi-Imagine.app.tar.gz"
     }
   }
 }
