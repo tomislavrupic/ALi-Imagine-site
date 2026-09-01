@@ -1,11 +1,11 @@
 {
-  "version": "0.9.4",
-  "notes": "Spatial Take now uses pixel-exact neutral commits, confidence-aware camera guides, explicit repair masks, and ordered Camera Guide plus untouched-original references so FLUX.2 follows the chosen camera while preserving subject identity and materials.",
-  "pub_date": "2026-09-01T06:12:29Z",
+  "version": "0.9.5",
+  "notes": "Take Stacks group repeated generations by source and operation, preserve every immutable take, and let one favorite become the best take. Spatial HQ also gains stricter InfiniSplat installation and certification while Quick and Detail remain available as safe fallbacks.",
+  "pub_date": "2026-09-01T17:39:48Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTU1dDS0Vxc1pTUzVpNTh5dUEwWkxzbzgrL01pcmhhVDZIOXFOci8wUmI4L25NVlFVQ2ZtVjh3SHVMeCs3YnRTVU14U1JRNkg0MEc4QmpwS0VhQm1JR05TNWwrT2tMVGdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MjQzMDEwCWZpbGU6QUxpLUltYWdpbmUuYXBwLnRhci5negpsbnlQbkdvd2U3RXZQY0h5WldJcVlpcDVRWms3K283alA0V0laN25iNVpHem9DbUNmNTlkbTAybHozUTdZMmErWFYwUlgxS20zNytxMUlsU0pMNW1EUT09Cg==",
-      "url": "https://github.com/tomislavrupic/ALi-Imagine-site/releases/download/v0.9.4/ALi-Imagine.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTU1dDS0Vxc1pTUy9FeWJWV1BUcGVWUWRQVjhwMzBHeklacStmM0tBMnlLdlprbFZZR0RBTnVOYW1wd3QrUjhqUVRiOTc3bVhQTXFjWnV3VUc0V3hvcGdlblRISXNJdkFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4Mjg0MzQyCWZpbGU6QUxpLUltYWdpbmUuYXBwLnRhci5negpjTG5QWWI1NU1wNGRKREpISG5ub2JsdEEvSjlxcmNSOUJScVJ3NGhxemtxQU82aGpsU3ZnZTBNd2RkbjEvdzRzNllRaFFQYjc4M0ZqYVpuZUhBaU9CUT09Cg==",
+      "url": "https://github.com/tomislavrupic/ALi-Imagine-site/releases/download/v0.9.5/ALi-Imagine.app.tar.gz"
     }
   }
 }
