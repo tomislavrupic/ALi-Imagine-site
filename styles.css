@@ -550,3 +550,19 @@ footer a:hover { color: var(--ink); }
   *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
   .reveal { opacity: 1; transform: none; }
 }
+
+/* Shareable local Codex workflow. */
+.skill-panel { padding: clamp(24px, 4vw, 58px); border: 1px solid var(--line-bright); background: var(--surface); }
+.skill-panel h2 { margin: 16px 0; font: 400 clamp(36px, 5vw, 64px)/1.05 var(--display); }
+.skill-lede { max-width: 760px; color: var(--muted); font-size: 19px; line-height: 1.65; }
+.skill-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 24px; margin: 28px 0; }
+.skill-steps { padding-left: 24px; color: var(--muted); line-height: 1.7; }
+.skill-steps li { margin: 10px 0; }
+.skill-steps strong { color: var(--ink); }
+.skill-prompt { margin-top: 22px; border: 1px solid var(--line); background: var(--bg); padding: 18px; }
+.skill-prompt > div { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; font: 11px var(--mono); letter-spacing: .07em; color: var(--cyan); }
+.skill-prompt button { padding: 9px 12px; background: var(--surface-2); color: var(--ink); border: 1px solid var(--line-bright); cursor: pointer; font: 12px var(--ui); }
+.skill-prompt pre { white-space: pre-wrap; overflow-wrap: anywhere; font: 13px/1.8 var(--mono); color: var(--ink); margin: 16px 0 0; }
+.skill-note { color: var(--muted); font-size: 14px; line-height: 1.7; margin: 20px 0 0; }
+.skill-note a { color: var(--cyan); text-decoration: underline; }
+.skill-steps code, .skill-note code { overflow-wrap: anywhere; }

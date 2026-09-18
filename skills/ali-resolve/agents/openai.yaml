@@ -1,0 +1,4 @@
+interface:
+  display_name: "ALi Resolve"
+  short_description: "Generate and place ALi video shots in Resolve"
+  default_prompt: "Use $ali-resolve to generate and review the next shot, then place it on my Resolve timeline."

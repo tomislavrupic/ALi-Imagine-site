@@ -50,6 +50,7 @@
         <a href="#workflow">Workflow</a>
         <a href="#signal-crew">Concepts</a>
         <a href="#engines">Engines</a>
+        <a href="#codex-resolve">Codex + Resolve</a>
         <a href="#download">Install</a>
       </nav>
         <a class="header-cta button-download" href="https://github.com/tomislavrupic/ALi-Imagine-site/releases/download/v0.9.5/ALi-Imagine_0.9.5_aarch64.dmg">Download</a>
@@ -445,6 +446,33 @@
           <div><small>CERTIFY</small><img src="assets/lineage-certified.jpg" alt="ALi identity certification frames" loading="lazy" /></div>
           <i>→</i>
           <div><small>GENERATE</small><img src="assets/lineage-result.jpg" alt="ALi ascended as a finished immutable asset" loading="lazy" /></div>
+        </div>
+      </section>
+
+      <section class="resolve-skill section" id="codex-resolve" aria-labelledby="resolve-skill-title">
+        <div class="skill-panel">
+          <p class="eyebrow">CODEX + DAVINCI RESOLVE / MACOS</p>
+          <h2 id="resolve-skill-title">Bring Codex into your edit.</h2>
+          <p class="skill-lede">Capture a frame, prepare an ALi video shot, review the result, and place the take back on your Resolve timeline. The ALi Resolve skill gives Codex the workflow.</p>
+          <div class="skill-actions">
+            <a class="button button-primary" href="downloads/ali-resolve-skill-1.0.0.zip" download>Download Codex skill <small>v1.0.0 · ZIP</small></a>
+            <a class="text-link" href="downloads/ali-resolve-setup.txt">Read the setup guide ↗</a>
+          </div>
+          <ol class="skill-steps">
+            <li><strong>Unzip the skill.</strong> Keep the <code>ali-resolve</code> folder in Downloads.</li>
+            <li><strong>Ask Codex to install it.</strong> Use Codex on the same Mac as ALi Imagine and Resolve.</li>
+            <li><strong>Check the connection.</strong> Open both apps and your Resolve timeline before trying a shot.</li>
+          </ol>
+          <div class="skill-prompt">
+            <div><strong>PASTE INTO CODEX</strong><button type="button" data-copy-skill="skill-install-prompt">Copy install prompt</button></div>
+            <pre id="skill-install-prompt">Install the ALi Resolve skill from ~/Downloads/ali-resolve into ~/.agents/skills/ali-resolve. Read its README.md, back up any existing version, and check the required software. Do not generate media or change my timeline.</pre>
+          </div>
+          <div class="skill-prompt">
+            <div><strong>THEN CHECK YOUR CONNECTION</strong><button type="button" data-copy-skill="skill-check-prompt">Copy connection prompt</button></div>
+            <pre id="skill-check-prompt">Use $ali-resolve to check my ALi and Resolve connections. Tell me the active project and timeline. Do not generate anything or change my timeline.</pre>
+          </div>
+          <p class="skill-note">Requires the ALi Resolve plugin, Python 3, and Resolve external scripting access. Generation needs a configured local LTX 2.5 runtime. This ZIP contains the Codex skill, not the apps, plugin, or models. Start with the connection check; older ALi versions may need an update.</p>
+          <p class="skill-note">No Sirius or ChatGPT <code>manifest.json</code> is needed for this workflow. Current helper: macOS, whole-number timeline frame rates. <a href="downloads/ali-resolve-skill-1.0.0.zip.sha256">Download checksum</a>.</p>
         </div>
       </section>
 
