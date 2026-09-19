@@ -1,11 +1,11 @@
 {
-  "version": "0.9.5",
-  "notes": "Take Stacks group repeated generations by source and operation, preserve every immutable take, and let one favorite become the best take. Spatial HQ also gains stricter InfiniSplat installation and certification while Quick and Detail remain available as safe fallbacks.",
-  "pub_date": "2026-09-01T17:39:48Z",
+  "version": "0.9.9",
+  "notes": "Grok frame controls, Concept references, voice previews, separate dialogue, image drag-and-drop and prompt workflow fixes.",
+  "pub_date": "2026-09-19T16:34:53.089237Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTU1dDS0Vxc1pTUy9FeWJWV1BUcGVWUWRQVjhwMzBHeklacStmM0tBMnlLdlprbFZZR0RBTnVOYW1wd3QrUjhqUVRiOTc3bVhQTXFjWnV3VUc0V3hvcGdlblRISXNJdkFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4Mjg0MzQyCWZpbGU6QUxpLUltYWdpbmUuYXBwLnRhci5negpjTG5QWWI1NU1wNGRKREpISG5ub2JsdEEvSjlxcmNSOUJScVJ3NGhxemtxQU82aGpsU3ZnZTBNd2RkbjEvdzRzNllRaFFQYjc4M0ZqYVpuZUhBaU9CUT09Cg==",
-      "url": "https://github.com/tomislavrupic/ALi-Imagine-site/releases/download/v0.9.5/ALi-Imagine.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTU1dDS0Vxc1pTUzRvaXZ1WFQvUHhPUVkvOTN5djVPOXg2Vm8vVGcybWNURmFpdEF3TzdkWU1CbUFYTkxQSUZoQm1ZVzNBUlhsaUhOejhGVkJrN0M0eUJBaTFVUXJHclFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5ODM1NjUzCWZpbGU6QUxpLUltYWdpbmUuYXBwLnRhci5negpyNnlBSmZpaXFjN2g1ZHovWEIwR0MvN0Z3Yzh4TUt4d3pTWGZraXBkUEI4bTJVVVdoajdrRVJ0bndqaFpiOW1SeWFBS09HV0Fwbk8xMGpKR3JTQlRDZz09Cg==",
+      "url": "https://github.com/tomislavrupic/ALi-Imagine-site/releases/download/v0.9.9/ALi-Imagine.app.tar.gz"
     }
   }
 }
