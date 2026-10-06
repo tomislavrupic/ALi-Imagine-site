@@ -1,11 +1,11 @@
 {
-  "version": "0.9.9",
-  "notes": "Grok frame controls, Concept references, voice previews, separate dialogue, image drag-and-drop and prompt workflow fixes.",
-  "pub_date": "2026-09-19T16:34:53.089237Z",
+  "version": "0.9.18",
+  "notes": "Authenticated local MCP, guarded Resolve workflows, LTX quality and upscale fixes, output history and local model setup improvements. Public H3 execution remains authorization-gated.",
+  "pub_date": "2026-10-06T23:13:58.482644Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTU1dDS0Vxc1pTUzRvaXZ1WFQvUHhPUVkvOTN5djVPOXg2Vm8vVGcybWNURmFpdEF3TzdkWU1CbUFYTkxQSUZoQm1ZVzNBUlhsaUhOejhGVkJrN0M0eUJBaTFVUXJHclFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5ODM1NjUzCWZpbGU6QUxpLUltYWdpbmUuYXBwLnRhci5negpyNnlBSmZpaXFjN2g1ZHovWEIwR0MvN0Z3Yzh4TUt4d3pTWGZraXBkUEI4bTJVVVdoajdrRVJ0bndqaFpiOW1SeWFBS09HV0Fwbk8xMGpKR3JTQlRDZz09Cg==",
-      "url": "https://github.com/tomislavrupic/ALi-Imagine-site/releases/download/v0.9.9/ALi-Imagine.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTU1dDS0Vxc1pTUys2bEJsSm9Tb0tadEtqaGV4ZW1OV3FGSTBQVTEvK0lXa0RLRkIrdmRPaitIQWRIa2RHQVhVbFp1ZEl1NlQ2SGY3SGdhNGtWMUpSUTVrSXp4bjZCWHd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMzI4NDE2CWZpbGU6QUxpLUltYWdpbmUuYXBwLnRhci5nego3cFd0K2Z2cERQU0NuVjlVckl5NHNDRW5JcWVockNVYkhGcVMxdTROcldtN002NTh4Y0JjbTBGVHhlZ3BzNThhS0JQNUR6UDhPOW1USlRSaXVWdHhCQT09Cg==",
+      "url": "https://github.com/tomislavrupic/ALi-Imagine-site/releases/download/v0.9.18/ALi-Imagine.app.tar.gz"
     }
   }
 }
