@@ -112,7 +112,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .hero h1 { max-width: 780px; margin: 30px 0 24px; font: 400 clamp(54px, 6.4vw, 104px)/0.92 var(--display); letter-spacing: -0.055em; }
 .hero h1 em { color: var(--orange); font-style: italic; }
 .hero-lede { max-width: 710px; margin: 0; color: #aab4b8; font-size: clamp(18px, 1.55vw, 24px); line-height: 1.55; }
-.hero-actions { display: flex; align-items: center; gap: 13px; margin-top: 38px; }
+.hero-actions { display: flex; flex-direction: column; align-items: flex-start; gap: 13px; margin-top: 38px; }
 .button { min-height: 58px; padding: 13px 20px; border: 1px solid var(--line-bright); display: inline-flex; align-items: center; justify-content: center; gap: 15px; font: 600 12px/1 var(--mono); letter-spacing: 0.06em; text-transform: uppercase; transition: transform 150ms ease, border-color 150ms ease, background 150ms ease; }
 .button:hover { transform: translateY(-2px); }
 .button small { color: rgba(255,255,255,0.65); font-size: 9px; letter-spacing: 0.08em; }
@@ -440,7 +440,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .install-steps { display: grid; align-content: center; }
 .install-steps span { padding: 17px 0; border-bottom: 1px solid var(--line); color: #abb6ba; font: 10px/1.4 var(--mono); }
 .install-steps b { display: inline-block; width: 40px; color: var(--orange); }
-.download-actions { grid-column: 1 / -1; display: flex; align-items: center; gap: 25px; }
+.download-actions { grid-column: 1 / -1; display: flex; flex-direction: column; align-items: flex-start; gap: 25px; }
 .text-link { color: var(--muted); font: 10px/1 var(--mono); text-transform: uppercase; }
 .text-link:hover { color: var(--ink); }
 
