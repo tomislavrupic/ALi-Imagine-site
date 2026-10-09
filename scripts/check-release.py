@@ -4,7 +4,7 @@ from html.parser import HTMLParser
 root=pathlib.Path(__file__).resolve().parents[1]
 html=(root/'index.html').read_text();feed=json.loads((root/'updates/latest.json').read_text())
 version=feed['version'];assert f'/v{version}/ALi-Imagine_{version}_aarch64.dmg' in html
-assert feed['platforms']['darwin-aarch64']['url'].endswith(f'/v{version}/ALi-Imagine.app.tar.gz')
+assert feed['platforms']['darwin-aarch64']['url'].endswith((f'/v{version}/ALi-Imagine.app.tar.gz', f'/v{version}/ALi-Imagine_{version}_updater-r2.app.tar.gz'))
 assert len(feed['platforms']['darwin-aarch64']['signature'])>100
 class Links(HTMLParser):
  def handle_starttag(self,tag,attrs):

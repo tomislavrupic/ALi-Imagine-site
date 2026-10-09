@@ -4,6 +4,10 @@ This update combines paired laptop rendering with the latest H3/PDD, custom step
 
 Pair once over your private Tailscale network, then use **Connect laptop / Disconnect laptop** beside the queue. New jobs alternate across Macs with compatible engines, exact models and required runtime readiness. Completed laptop results return to the original Gallery. Accepted work can finish after Disconnect; cancellation remains pending until the laptop confirms it.
 
+## Updater repair
+
+The updater package has been corrected after an archive-unpacking failure. If an earlier attempt failed, select **Check for updates** again and retry installation. The app version remains 0.9.20.
+
 ## Setup
 
 1. Use the update icon on both Macs to install 0.9.20.
