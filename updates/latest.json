@@ -1,11 +1,11 @@
 {
-  "version": "0.9.18",
-  "notes": "Authenticated local MCP, guarded Resolve workflows, LTX quality and upscale fixes, output history and local model setup improvements. Public H3 execution remains authorization-gated.",
-  "pub_date": "2026-10-06T23:13:58.482644Z",
+  "version": "0.9.19",
+  "notes": "Paired laptop rendering over private Tailscale. Connect / Disconnect alternates jobs across Macs with matching engines and models, verified Gallery return, cancellation and restart recovery. Update both Macs and pair once in System.",
+  "pub_date": "2026-10-09T21:28:26.188840Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTU1dDS0Vxc1pTUys2bEJsSm9Tb0tadEtqaGV4ZW1OV3FGSTBQVTEvK0lXa0RLRkIrdmRPaitIQWRIa2RHQVhVbFp1ZEl1NlQ2SGY3SGdhNGtWMUpSUTVrSXp4bjZCWHd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMzI4NDE2CWZpbGU6QUxpLUltYWdpbmUuYXBwLnRhci5nego3cFd0K2Z2cERQU0NuVjlVckl5NHNDRW5JcWVockNVYkhGcVMxdTROcldtN002NTh4Y0JjbTBGVHhlZ3BzNThhS0JQNUR6UDhPOW1USlRSaXVWdHhCQT09Cg==",
-      "url": "https://github.com/tomislavrupic/ALi-Imagine-site/releases/download/v0.9.18/ALi-Imagine.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTU1dDS0Vxc1pTU3g3OTFpZzJYeWl6Z201TzlIdFFpdnRCR1Yrd1p6SnRFVUNxcjIvbVh6cXc5OU5jM1hjRG84cjJBR0RxaC9SUUFnMldQb0ErdUZIdTJVMHpMWEhSbndNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNTgxMjUxCWZpbGU6QUxpLUltYWdpbmUuYXBwLnRhci5negozOFlhL0l0N1paQ3BhZmp6MTRidk8xRmlybWE1QmhxRnUxSWZaWDRGNWpuZnZWYjE1NE9pYUpwMGl6ZWN0S0swT3EwZlY1WGpvN3MxMGRqZmxxVGpCZz09Cg==",
+      "url": "https://github.com/tomislavrupic/ALi-Imagine-site/releases/download/v0.9.19/ALi-Imagine.app.tar.gz"
     }
   }
 }
