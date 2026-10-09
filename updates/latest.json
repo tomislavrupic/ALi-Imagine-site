@@ -1,11 +1,11 @@
 {
-  "version": "0.9.19",
-  "notes": "Paired laptop rendering over private Tailscale. Connect / Disconnect alternates jobs across Macs with matching engines and models, verified Gallery return, cancellation and restart recovery. Update both Macs and pair once in System.",
-  "pub_date": "2026-10-09T21:28:26.188840Z",
+  "version": "0.9.20",
+  "notes": "Paired laptop rendering plus the latest H3/PDD, step controls, styles and live previews. Update both Macs, pair once in System, then Connect / Disconnect to alternate compatible jobs. Matching models remain local; the current 96 GB PDD recipe stays on the Studio when paired with a 48 GB laptop.",
+  "pub_date": "2026-10-09T21:43:21.407071Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTU1dDS0Vxc1pTU3g3OTFpZzJYeWl6Z201TzlIdFFpdnRCR1Yrd1p6SnRFVUNxcjIvbVh6cXc5OU5jM1hjRG84cjJBR0RxaC9SUUFnMldQb0ErdUZIdTJVMHpMWEhSbndNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNTgxMjUxCWZpbGU6QUxpLUltYWdpbmUuYXBwLnRhci5negozOFlhL0l0N1paQ3BhZmp6MTRidk8xRmlybWE1QmhxRnUxSWZaWDRGNWpuZnZWYjE1NE9pYUpwMGl6ZWN0S0swT3EwZlY1WGpvN3MxMGRqZmxxVGpCZz09Cg==",
-      "url": "https://github.com/tomislavrupic/ALi-Imagine-site/releases/download/v0.9.19/ALi-Imagine.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTU1dDS0Vxc1pTUzlCYkRHOVdaY1c4Ly9wLzM3RmxTRXpNMDkzb2JmV1VvSnJiSC9TandjSmdJaWVjNm42SzBXanlqOFV4UHo5ZHBrTVVXZy9KL1JzRWFMMHNqMEhZelFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNTgyMTU1CWZpbGU6QUxpLUltYWdpbmUuYXBwLnRhci5negoyUlZ6QW5xellTZ2xxK1Vwb0VUZGt5YkNYbis5aWI3ZTYzTC9WeUpJU2Y1anlZbTRYMFpTNUZSK1FyTno4OHRubnZFZzdLVDJKeDhZVkdVZVNCY3NDQT09Cg==",
+      "url": "https://github.com/tomislavrupic/ALi-Imagine-site/releases/download/v0.9.20/ALi-Imagine.app.tar.gz"
     }
   }
 }
