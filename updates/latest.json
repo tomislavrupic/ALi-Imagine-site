@@ -1,11 +1,11 @@
 {
-  "version": "0.9.20",
-  "notes": "Updater packaging repaired: if an earlier attempt failed, check for updates again and retry. Paired laptop rendering plus the latest H3/PDD, step controls, styles and live previews. Update both Macs, pair once in System, then Connect / Disconnect to alternate compatible jobs. Matching models remain local; the current 96 GB PDD recipe stays on the Studio when paired with a 48 GB laptop.",
-  "pub_date": "2026-10-09T21:59:20.632650Z",
+  "version": "0.9.21",
+  "notes": "Fixes Accept render jobs failing with expected value at line 1 column 1. ALi now launches Tailscale in CLI mode automatically. Update both Macs to 0.9.21, then enable Accept render jobs on the laptop and pair it with the Studio. Includes the corrected updater package and all 0.9.20 rendering, H3/PDD and preview changes.",
+  "pub_date": "2026-10-09T22:17:46.267298Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTU1dDS0Vxc1pTUzQvR0ROVkVKSm9XNmtZZktIQ3Y0TjFxTmEwRzVkSmtlTnFTMUlMNlhpTm0va0xQVG5DYmFtU0c2OGU1RExEUmo5OTlpa1ZEVmZMd3F1bks0RnFnaVFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNTgzMDY5CWZpbGU6QUxpLUltYWdpbmVfMC45LjIwX3VwZGF0ZXItcjIuYXBwLnRhci5negplQy9KZDBHWXptZXRROURYMG0vb2orREJJek5BajNjbk1ZTHZQN3BPWGhkejVjaW94NVc4T3FCd0duOHk4ejY3ZkxuMEpvRW85QlBlc3cyZVVFOFhDUT09Cg==",
-      "url": "https://github.com/tomislavrupic/ALi-Imagine-site/releases/download/v0.9.20/ALi-Imagine_0.9.20_updater-r2.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTU1dDS0Vxc1pTU3llN0VHenJaS3BCV2p6M0JaS1R1dGdpMlFGMlVEeDZaL2tvMlU2a3d3ZmEyY3NUK3A2NXVKTmtXMmNlS1ZRTEZ6VnBYWmRMNEpuZ2RuV1EvTVFzcndVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNTg0MjE0CWZpbGU6QUxpLUltYWdpbmUuYXBwLnRhci5negpZQzdZNHZoc3VvelNMOS9Ta09zUVl2c3hrcGlNYkoyUUUvWWIyekErN0NicFZVUkxtOVZ2bXNsREcweG5mUjhOcUNWN0dYWEN1UjJ3d3FFeE4rd3NEZz09Cg==",
+      "url": "https://github.com/tomislavrupic/ALi-Imagine-site/releases/download/v0.9.21/ALi-Imagine.app.tar.gz"
     }
   }
 }
