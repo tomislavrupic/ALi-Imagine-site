@@ -1,11 +1,11 @@
 {
-  "version": "0.9.21",
-  "notes": "Fixes Accept render jobs failing with expected value at line 1 column 1. ALi now launches Tailscale in CLI mode automatically. Update both Macs to 0.9.21, then enable Accept render jobs on the laptop and pair it with the Studio. Includes the corrected updater package and all 0.9.20 rendering, H3/PDD and preview changes.",
-  "pub_date": "2026-10-09T22:17:46.267298Z",
+  "version": "0.9.22",
+  "notes": "Render percentage and steps stay visible when switching between Preview, Source, Result and FX. Laptop jobs now retain engine phase and step counts. Connect or disconnect with the compact network planet icon beside System. Update both Macs to 0.9.22. Includes the previous H3/PDD, preview, Tailscale and updater fixes; standard H3 authorization requirements remain unchanged.",
+  "pub_date": "2026-10-09T22:38:53.678425Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTU1dDS0Vxc1pTU3llN0VHenJaS3BCV2p6M0JaS1R1dGdpMlFGMlVEeDZaL2tvMlU2a3d3ZmEyY3NUK3A2NXVKTmtXMmNlS1ZRTEZ6VnBYWmRMNEpuZ2RuV1EvTVFzcndVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNTg0MjE0CWZpbGU6QUxpLUltYWdpbmUuYXBwLnRhci5negpZQzdZNHZoc3VvelNMOS9Ta09zUVl2c3hrcGlNYkoyUUUvWWIyekErN0NicFZVUkxtOVZ2bXNsREcweG5mUjhOcUNWN0dYWEN1UjJ3d3FFeE4rd3NEZz09Cg==",
-      "url": "https://github.com/tomislavrupic/ALi-Imagine-site/releases/download/v0.9.21/ALi-Imagine.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTU1dDS0Vxc1pTUzJuOGRsOVVXR3V0dk1ZZFhUVlZHMTlDaWxGV0orOWFRbEk4S2JwU1AvdEMrSk8rckh6dHZIRE1QVzZGZUVJVGVaVW81cHZBRHZJUmRVb1ZmRVo1TmdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNTg1MzExCWZpbGU6QUxpLUltYWdpbmUuYXBwLnRhci5negpOVUxpcTI2NUxWa3gzVW5wT0dqcEcyUTh5OExWWWhwWkdZNkZkanpBWWcwMjNaSGJ3QXV5enMzVncwQVlDZHJLSGlleFpRSnBjSFRNSHhXSWJWYjdDZz09Cg==",
+      "url": "https://github.com/tomislavrupic/ALi-Imagine-site/releases/download/v0.9.22/ALi-Imagine.app.tar.gz"
     }
   }
 }
