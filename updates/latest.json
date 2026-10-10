@@ -1,11 +1,11 @@
 {
-  "version": "0.9.22",
-  "notes": "Render percentage and steps stay visible when switching between Preview, Source, Result and FX. Laptop jobs now retain engine phase and step counts. Connect or disconnect with the compact network planet icon beside System. Update both Macs to 0.9.22. Includes the previous H3/PDD, preview, Tailscale and updater fixes; standard H3 authorization requirements remain unchanged.",
-  "pub_date": "2026-10-09T22:38:53.678425Z",
+  "version": "0.9.23",
+  "notes": "Selected clips open straight into Result while render percentage and steps remain visible. H3 step/reset/delivery controls use consistent compact typography. Render cards separate Stop from metadata, Recent Outputs has readable navigation, and toolbars fit compact windows. Includes the paired laptop rendering and previous updater fixes. Private H3 Studio builds retain their separate update guard.",
+  "pub_date": "2026-10-10T07:26:18.809638Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTU1dDS0Vxc1pTUzJuOGRsOVVXR3V0dk1ZZFhUVlZHMTlDaWxGV0orOWFRbEk4S2JwU1AvdEMrSk8rckh6dHZIRE1QVzZGZUVJVGVaVW81cHZBRHZJUmRVb1ZmRVo1TmdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNTg1MzExCWZpbGU6QUxpLUltYWdpbmUuYXBwLnRhci5negpOVUxpcTI2NUxWa3gzVW5wT0dqcEcyUTh5OExWWWhwWkdZNkZkanpBWWcwMjNaSGJ3QXV5enMzVncwQVlDZHJLSGlleFpRSnBjSFRNSHhXSWJWYjdDZz09Cg==",
-      "url": "https://github.com/tomislavrupic/ALi-Imagine-site/releases/download/v0.9.22/ALi-Imagine.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTU1dDS0Vxc1pTUzhNMnFpcVA5UkFKa0FETHBnMzdMaktiREg1eGVPTW1aV3BHdG5wR1JHZFlJcXlkUUFRT1FQcllUUFZBTy9PTzZBd2ljVjNaNHRUWmNNdTJWdHkvdmd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNjE3MTEwCWZpbGU6QUxpLUltYWdpbmUuYXBwLnRhci5negpEVnllR0l3MFF0N01kVWYzdXBCejVOc09lZnphOS9KMWJIUG5wRkxHQ3c4M3JaTkQ5a0hzcUwzZ0FaQ1FXMzJKL0hUaUI0YjROcFJHd2RHcTEwR0NCUT09Cg==",
+      "url": "https://github.com/tomislavrupic/ALi-Imagine-site/releases/download/v0.9.23/ALi-Imagine.app.tar.gz"
     }
   }
 }
