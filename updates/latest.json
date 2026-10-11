@@ -1,11 +1,11 @@
 {
-  "version": "0.9.23",
-  "notes": "Selected clips open straight into Result while render percentage and steps remain visible. H3 step/reset/delivery controls use consistent compact typography. Render cards separate Stop from metadata, Recent Outputs has readable navigation, and toolbars fit compact windows. Includes the paired laptop rendering and previous updater fixes. Private H3 Studio builds retain their separate update guard.",
-  "pub_date": "2026-10-10T07:26:18.809638Z",
+  "version": "0.9.26",
+  "notes": "LTX 2\u00d7 upscale now defaults to 2 steps and accepts generated and imported videos. Adjustable generation/upscale steps, aligned VIDEO controls with No text / No music / No voice, gallery source dragging, inline Takes, and render timing. SeedVR2 retired. Existing projects, models, MCP and Resolve workflows retained; public H3 authorization guard unchanged.",
+  "pub_date": "2026-10-11T18:21:52.657960Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTU1dDS0Vxc1pTUzhNMnFpcVA5UkFKa0FETHBnMzdMaktiREg1eGVPTW1aV3BHdG5wR1JHZFlJcXlkUUFRT1FQcllUUFZBTy9PTzZBd2ljVjNaNHRUWmNNdTJWdHkvdmd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNjE3MTEwCWZpbGU6QUxpLUltYWdpbmUuYXBwLnRhci5negpEVnllR0l3MFF0N01kVWYzdXBCejVOc09lZnphOS9KMWJIUG5wRkxHQ3c4M3JaTkQ5a0hzcUwzZ0FaQ1FXMzJKL0hUaUI0YjROcFJHd2RHcTEwR0NCUT09Cg==",
-      "url": "https://github.com/tomislavrupic/ALi-Imagine-site/releases/download/v0.9.23/ALi-Imagine.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTU1dDS0Vxc1pTUzdTRkFDazBjUDAwc3ZTaEcxSE9DaGdmWms2eENqcjZyZlNqREF5SXUwcFcxRlFhOG14MlYxWUJPUzc4REFoOGtJYU02RlhlYytwa2d2K05hNVE5S1FzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNzQyODUyCWZpbGU6QUxpLUltYWdpbmUuYXBwLnRhci5negpEeGlnY05mS244Nm9xdDNGZ0ZpVzliUUFzcWI5TkMwNlQwWkc4cHM2Wk9KRDJCdWhuTzhiY0lvdnFVblBVa2VWZEJuQTRhM1VVeGlQTHBZdzlSeldDQT09Cg==",
+      "url": "https://github.com/tomislavrupic/ALi-Imagine-site/releases/download/v0.9.26/ALi-Imagine.app.tar.gz"
     }
   }
 }
