@@ -1,11 +1,11 @@
 {
-  "version": "0.9.27",
-  "notes": "Faster repeated LTX prompts with lower memory use; fixed gallery/status database contention; checked MP4 exports and separate decode/export timings. Compact Output Info chevron and aligned status dots. LTX 2\u00d7 upscale keeps its adjustable steps and 2-step default. Existing projects, models and private-build update protection are preserved. Public H3 authorization requirements are unchanged.",
-  "pub_date": "2026-10-12T07:35:44.865423Z",
+  "version": "0.9.28",
+  "notes": "Restore now has its own mode and an adjustable 2\u20138 step slider, defaulting to 2. Ready video workflows open directly from Create; fixed gallery video drops, empty ChatGPT prompt suggestions and native/anamorphic playback. Clear Render Farm setup with a Tailscale download link. Legacy sampling settings, originals and private H3 update protection are preserved. Public H3 authorization requirements are unchanged.",
+  "pub_date": "2026-10-12T18:26:34.873301Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTU1dDS0Vxc1pTUzRJblFRRjZVa2JZWFI1dFQ2Rm54d2hpYTQveEc5SFdxNDltVmYzNS9iTGpqMDZxK2U4VkN5aE56UGJwSHZXd1U4UzVIWmVmN0VYb1R2K3Jvd1RFcmcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNzkwNDUzCWZpbGU6QUxpLUltYWdpbmUuYXBwLnRhci5negpRQWtURjczWDMwQlJGeU1uTWl0NnRBcmlPMWRMTFRrTzgyRXBNbkFuT2MwNmd6NnY5M01oOTNsV216RXM3MnBiVzRhVlR4QllvdnBYMng1S2tyaU1EUT09Cg==",
-      "url": "https://github.com/tomislavrupic/ALi-Imagine-site/releases/download/v0.9.27/ALi-Imagine.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTU1dDS0Vxc1pTU3cxU0ZCSVVzSXdkRDY2V2crcE5zYUhWNitTSElucHhXN1pnQkRaN0QvNXRRU25RZXdLc2ZVUndzSUlSTmxDcnZmU2g0cWdza1NQQVZ1Tll0MkgvVXdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxODI5NTE4CWZpbGU6QUxpLUltYWdpbmUuYXBwLnRhci5negphMGwzSWRzZy9zQzNlMHpmbk83MmQ4RDhHNGNEdU1WWFVkMnR6N1EzTCtHQkpTZFhhSS9CU2xwcVc3VWI5QzlMMFpCWWhHRENYTzhHZTc0NjMwUXZCUT09Cg==",
+      "url": "https://github.com/tomislavrupic/ALi-Imagine-site/releases/download/v0.9.28/ALi-Imagine.app.tar.gz"
     }
   }
 }
