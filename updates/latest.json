@@ -1,11 +1,11 @@
 {
-  "version": "0.9.28",
-  "notes": "Restore now has its own mode and an adjustable 2\u20138 step slider, defaulting to 2. Ready video workflows open directly from Create; fixed gallery video drops, empty ChatGPT prompt suggestions and native/anamorphic playback. Clear Render Farm setup with a Tailscale download link. Legacy sampling settings, originals and private H3 update protection are preserved. Public H3 authorization requirements are unchanged.",
-  "pub_date": "2026-10-12T18:26:34.873301Z",
+  "version": "0.9.29",
+  "notes": "FX LoRAs attach their settings to Create and reuse existing source wells. Removed extra processing mode tabs; fixed engine switching, stale notices and readiness refresh resets. LTX defaults to Large, Best and 8 + 3 steps; image inputs use Source aspect and Image Video uses Start Frame. Duration is directly below Signal. Restore and upscale retain separate two-step defaults, including after reusing unrelated takes. Saved requests and original media are preserved. Public H3 authorization requirements are unchanged.",
+  "pub_date": "2026-10-13T07:24:07.397032Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTU1dDS0Vxc1pTU3cxU0ZCSVVzSXdkRDY2V2crcE5zYUhWNitTSElucHhXN1pnQkRaN0QvNXRRU25RZXdLc2ZVUndzSUlSTmxDcnZmU2g0cWdza1NQQVZ1Tll0MkgvVXdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxODI5NTE4CWZpbGU6QUxpLUltYWdpbmUuYXBwLnRhci5negphMGwzSWRzZy9zQzNlMHpmbk83MmQ4RDhHNGNEdU1WWFVkMnR6N1EzTCtHQkpTZFhhSS9CU2xwcVc3VWI5QzlMMFpCWWhHRENYTzhHZTc0NjMwUXZCUT09Cg==",
-      "url": "https://github.com/tomislavrupic/ALi-Imagine-site/releases/download/v0.9.28/ALi-Imagine.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTU1dDS0Vxc1pTU3pSdFBhNmpVRk1HbkpCUHBxZjJtTHFkRTFJZGlJQmFwMncxY3FvZ2hsNkhCSzNPL1NGeEQ3UnZOcWhaSHhZRHUvN0tndE5LUjgzZk1pdWJqTXJ1endzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxODc2MTY1CWZpbGU6QUxpLUltYWdpbmUuYXBwLnRhci5negppaVdGY0JNNmt6ak9qYVhoTmRDdWI3THAwQU9WdEtSanJvaTkwenhYeVJKODZDcnVYRmUxUWhFT05kR0RTZlYzREZuR0tpRFBNZFpaK0tZanZkYUdBQT09Cg==",
+      "url": "https://github.com/tomislavrupic/ALi-Imagine-site/releases/download/v0.9.29/ALi-Imagine.app.tar.gz"
     }
   }
 }
