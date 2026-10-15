@@ -1,11 +1,11 @@
 {
-  "version": "0.9.34",
-  "notes": "Adds separately verified FLUX 3 Base (50 steps, CFG 3.5) alongside Distilled (16 steps, no CFG), the native FLUX 3 2x image-stage action, Explore scene Draft/Refine and current official FLUX 3 prompting guidance. Includes all previous native resolution, ten-reference, layout, render-timing, Qwen and Explore updates. ALi Resolve skill 1.3.0 available separately. Public H3 remains authorization-gated.",
-  "pub_date": "2026-10-15T19:22:25.577555Z",
+  "version": "0.9.35",
+  "notes": "Adds FLUX 3 Base Steps/CFG sliders with preserved defaults, fixes the model-selector layout and filters LoRAs by selected engine/model. Includes all prior FLUX 3, Qwen and Explore updates. ALi Resolve skill 1.4.0 is available separately. Run fresh FLUX Signal Tests after upgrading when prompted; weights are reused. Public H3 remains authorization-gated.",
+  "pub_date": "2026-10-15T20:05:55.695295Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTU1dDS0Vxc1pTUzc3a3ZJVE55cjNuZ2w0Q1pOazRoK3p2dStMMFU4TUFZTkdKR0k1WGV5VXVjVVZ1UWtMQ1p2TzJqb3hhVDMxM29sWlNXRGZ5Z2hROU5hREUxbXpCSWdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDkxOTM2CWZpbGU6QUxpLUltYWdpbmUuYXBwLnRhci5negpoc0toUll6TXlwYkN0VEFCTytpanJsaFJTeUVXMmI0RDc1M2FZc2hIc3VWdGpjRmNhdzRqMjBxTUNpRnRERzRVN1laQ2FWcGxPQ21TbSt6dldYZ3dDZz09Cg==",
-      "url": "https://github.com/tomislavrupic/ALi-Imagine-site/releases/download/v0.9.34/ALi-Imagine.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTU1dDS0Vxc1pTUy82TFhWY2hQQXQ4QzRtY0J5Zi8rZTE5c3BaYjNWc3l5cWVBRGhoMWtKNUo0ZU1EOHBtNTkwYnkxVGtjMGNyVTdDUk1qc01IZlUybFo4Sk1hTWI3bndVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDk0NjU2CWZpbGU6QUxpLUltYWdpbmUuYXBwLnRhci5negpHOEVBaUExZzU2RXpKdzdodHVYQ09LVmlaSGNLNmh2bnFZN1dNOVE0Uk9kK0tsQUxScW9panMrbmR4V0FwaEc3OEtWeUl5b0c2RXltYUZNODE0NnBEZz09Cg==",
+      "url": "https://github.com/tomislavrupic/ALi-Imagine-site/releases/download/v0.9.35/ALi-Imagine.app.tar.gz"
     }
   }
 }
