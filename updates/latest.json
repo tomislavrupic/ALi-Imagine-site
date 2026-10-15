@@ -1,11 +1,11 @@
 {
-  "version": "0.9.29",
-  "notes": "FX LoRAs attach their settings to Create and reuse existing source wells. Removed extra processing mode tabs; fixed engine switching, stale notices and readiness refresh resets. LTX defaults to Large, Best and 8 + 3 steps; image inputs use Source aspect and Image Video uses Start Frame. Duration is directly below Signal. Restore and upscale retain separate two-step defaults, including after reusing unrelated takes. Saved requests and original media are preserved. Public H3 authorization requirements are unchanged.",
-  "pub_date": "2026-10-13T07:24:07.397032Z",
+  "version": "0.9.32",
+  "notes": "Includes all current ALi updates: FLUX 3 Image Klein distilled replaces FLUX 2 in Create and Explore reconstruction, with native MLX/Metal BF16, 16 steps and no CFG. Adds the separate Qwen 2.1 Uncensored Q8 model option with its own setup and verification, and the latest Explore Local/Atlas camera workflows and camera-to-video handoff. Original media, saved model identities and provenance are preserved. Model weights download separately. Public H3 remains authorization-gated.",
+  "pub_date": "2026-10-15T17:21:02.470274Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTU1dDS0Vxc1pTU3pSdFBhNmpVRk1HbkpCUHBxZjJtTHFkRTFJZGlJQmFwMncxY3FvZ2hsNkhCSzNPL1NGeEQ3UnZOcWhaSHhZRHUvN0tndE5LUjgzZk1pdWJqTXJ1endzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxODc2MTY1CWZpbGU6QUxpLUltYWdpbmUuYXBwLnRhci5negppaVdGY0JNNmt6ak9qYVhoTmRDdWI3THAwQU9WdEtSanJvaTkwenhYeVJKODZDcnVYRmUxUWhFT05kR0RTZlYzREZuR0tpRFBNZFpaK0tZanZkYUdBQT09Cg==",
-      "url": "https://github.com/tomislavrupic/ALi-Imagine-site/releases/download/v0.9.29/ALi-Imagine.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTU1dDS0Vxc1pTUzNRZUgyUWJ2cXhpQXFaNjVmSWd1OG93aU5iUUQxby9aTGV1QTVXNkRLeXFlRWhzTUJoeG9XUXFQSmR4L3Q4V3I4dHhxQmxQUEkvTnQweVZwQnpLV2dvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDg0NzU5CWZpbGU6QUxpLUltYWdpbmUuYXBwLnRhci5negpmTXphU0JWUlBidzgweWV3ZmpuL2puZzIwYWhDTVN5RGVDU1BpZ3BIeFlMcm1xVWVlcXlEelFDYXpuTmJBYWtnejhSRk5HcFRpUnIyZnVXYW92K0hDZz09Cg==",
+      "url": "https://github.com/tomislavrupic/ALi-Imagine-site/releases/download/v0.9.32/ALi-Imagine.app.tar.gz"
     }
   }
 }
