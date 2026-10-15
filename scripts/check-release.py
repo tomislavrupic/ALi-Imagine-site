@@ -12,9 +12,11 @@ class Links(HTMLParser):
    if key in ('src','href') and value and not value.startswith(('https:','http:','#','data:','mailto:')):
     assert (root/value.split('?')[0]).is_file(),value
 Links().feed(html)
-p=root/'downloads/ali-resolve-skill-1.1.0.zip';expected=p.with_suffix('.zip.sha256').read_text().split()[0]
+skill_paths=set(re.findall(r'downloads/ali-resolve-skill-[0-9.]+\.zip(?![.])',html))
+assert len(skill_paths)==1,skill_paths
+p=root/skill_paths.pop();expected=p.with_suffix('.zip.sha256').read_text().split()[0]
 assert hashlib.sha256(p.read_bytes()).hexdigest()==expected
-allowed={'ali-resolve/SKILL.md','ali-resolve/README.md','ali-resolve/scripts/shot.py','ali-resolve/scripts/mcp.py','ali-resolve/scripts/mcp_shot.py','ali-resolve/scripts/test_mcp_shot.py'}
+allowed={'ali-resolve/SKILL.md','ali-resolve/README.md','ali-resolve/scripts/shot.py','ali-resolve/scripts/mcp.py','ali-resolve/scripts/mcp_shot.py','ali-resolve/scripts/test_mcp_shot.py','ali-resolve/references/flux3.md'}
 with zipfile.ZipFile(p) as archive:
  assert set(archive.namelist())==allowed
  for name in allowed:
