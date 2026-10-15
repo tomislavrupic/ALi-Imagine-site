@@ -1,8 +1,8 @@
-ALi Resolve skill 1.2.0 / ALi Imagine MCP
+ALi Resolve skill 1.3.0 / ALi Imagine MCP
 
-1. Install ALi Imagine 0.9.33+, launch it, and open DaVinci Resolve.
+1. Install ALi Imagine 0.9.34+, launch it, and open DaVinci Resolve.
 2. Enable Resolve external scripting access.
-3. Unzip ali-resolve-skill-1.2.0.zip and install the entire ali-resolve folder
+3. Unzip ali-resolve-skill-1.3.0.zip and install the entire ali-resolve folder
    into ~/.agents/skills/ali-resolve, retaining scripts and references and backing up an older copy.
 4. Register the app-installed MCP client:
 

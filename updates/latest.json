@@ -1,11 +1,11 @@
 {
-  "version": "0.9.33",
-  "notes": "FLUX 3: Draft 512 retained, 1K default, 2K Quality, native 4K Advanced, exact-size/aspect controls, ten ordered editing references, layout boxes and native generative 2x upscale. Fixes Render Time for existing and new FLUX images. Includes Qwen and Explore updates plus ALi Resolve skill 1.2.0. High resolutions use more time and memory; generative upscale can redraw detail. Public H3 remains authorization-gated.",
-  "pub_date": "2026-10-15T18:36:47.957649Z",
+  "version": "0.9.34",
+  "notes": "Adds separately verified FLUX 3 Base (50 steps, CFG 3.5) alongside Distilled (16 steps, no CFG), the native FLUX 3 2x image-stage action, Explore scene Draft/Refine and current official FLUX 3 prompting guidance. Includes all previous native resolution, ten-reference, layout, render-timing, Qwen and Explore updates. ALi Resolve skill 1.3.0 available separately. Public H3 remains authorization-gated.",
+  "pub_date": "2026-10-15T19:22:25.577555Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTU1dDS0Vxc1pTUzlaU3pzblhNeUNEb05PdEtKelZmMFlLSUNESjJmazNDdEhLNVl6Z095QUMvMmtEaE44ZE5sdXk5Y1lqenJZRTN4SzFWVm1ReHN4WHEzcFdVL2F4K2dnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDg5MzI2CWZpbGU6QUxpLUltYWdpbmUuYXBwLnRhci5negpyZkNOY0ZldGJIQ1hVRGE3VENVbC9uYjFuRlUzYWw5a01DWDJBSm9qckhRcWkyTnVBejdWQ3liYkIrVnJCNEFFUXB5bEJoN214K0xGcHlrZEZtZzJDdz09Cg==",
-      "url": "https://github.com/tomislavrupic/ALi-Imagine-site/releases/download/v0.9.33/ALi-Imagine.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTU1dDS0Vxc1pTUzc3a3ZJVE55cjNuZ2w0Q1pOazRoK3p2dStMMFU4TUFZTkdKR0k1WGV5VXVjVVZ1UWtMQ1p2TzJqb3hhVDMxM29sWlNXRGZ5Z2hROU5hREUxbXpCSWdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDkxOTM2CWZpbGU6QUxpLUltYWdpbmUuYXBwLnRhci5negpoc0toUll6TXlwYkN0VEFCTytpanJsaFJTeUVXMmI0RDc1M2FZc2hIc3VWdGpjRmNhdzRqMjBxTUNpRnRERzRVN1laQ2FWcGxPQ21TbSt6dldYZ3dDZz09Cg==",
+      "url": "https://github.com/tomislavrupic/ALi-Imagine-site/releases/download/v0.9.34/ALi-Imagine.app.tar.gz"
     }
   }
 }

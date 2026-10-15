@@ -16,7 +16,7 @@ skill_paths=set(re.findall(r'downloads/ali-resolve-skill-[0-9.]+\.zip(?![.])',ht
 assert len(skill_paths)==1,skill_paths
 p=root/skill_paths.pop();expected=p.with_suffix('.zip.sha256').read_text().split()[0]
 assert hashlib.sha256(p.read_bytes()).hexdigest()==expected
-allowed={'ali-resolve/SKILL.md','ali-resolve/README.md','ali-resolve/scripts/shot.py','ali-resolve/scripts/mcp.py','ali-resolve/scripts/mcp_shot.py','ali-resolve/scripts/test_mcp_shot.py','ali-resolve/references/flux3.md'}
+allowed={'ali-resolve/SKILL.md','ali-resolve/README.md','ali-resolve/scripts/shot.py','ali-resolve/scripts/mcp.py','ali-resolve/scripts/mcp_shot.py','ali-resolve/scripts/test_mcp_shot.py','ali-resolve/references/flux3.md','ali-resolve/references/flux3-prompting.md'}
 with zipfile.ZipFile(p) as archive:
  assert set(archive.namelist())==allowed
  for name in allowed:
