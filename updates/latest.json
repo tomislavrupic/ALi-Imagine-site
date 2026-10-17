@@ -1,11 +1,11 @@
 {
-  "version": "0.9.36",
-  "notes": "Automatically expands FLUX 3 prompts through the selected Prompt Assist connection using official BFL caption instructions. Original Signal and full render caption are retained, with locked reference order/layouts and recorded-caption replay. Toggle off for prepared captions. Image weights and native worker are unchanged; no MLX speed improvement is claimed. Includes all prior updates. ALi Resolve skill 1.4.1 is available separately. Public H3 remains authorization-gated.",
-  "pub_date": "2026-10-17T06:05:27.830886Z",
+  "version": "0.9.37",
+  "notes": "Improves optional Qwen Refine for Full and Unlocked: preserves long captions, ordered editing references and abstract visual intent; exact lettering only when requested. Raw Generate remains unchanged. Reference cache choices survive model switches, and CFG 1 explains inactive negative guidance. Model weights and native image workers are unchanged. Includes all prior updates. ALi Resolve skill 1.4.1 remains available separately. Public H3 remains authorization-gated.",
+  "pub_date": "2026-10-17T10:49:47.836234Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTU1dDS0Vxc1pTUzdqVzVxOVNSYk1UVjdwNzhRY0F0TXJDZllVVEdzUTJ5RGVNbXZzUXY5Mmxzd1U0Ukc0aXZ2ZGtVeUpJUHpJWDZ6ZG9XZTE3VCsvWU1lbkNBZFpVb2dJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMjE3MTAxCWZpbGU6QUxpLUltYWdpbmUuYXBwLnRhci5negp4d25SVTE1Nnc2Mm9ZVWVYM0xYNm05RGxwM3NrZTdmQnl4ajZoREhvdVQ0ZlU2ZUhOTll1NThmdWFiU2xCc3NQWkx1UVpRWHliaWRERFJyUjN1RGxBQT09Cg==",
-      "url": "https://github.com/tomislavrupic/ALi-Imagine-site/releases/download/v0.9.36/ALi-Imagine.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTU1dDS0Vxc1pTUzdsdFpJOE93QmRrZDNPdXVtOGovSzdmZldiSDlpZFBwcUZhdko4bGFQRnZGR21YUWYzZ0o4VTlHN3pKRWtscFo1MGI1eC9VNHVHM3N0ZmoyU2hnOUFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMjM0MTMxCWZpbGU6QUxpLUltYWdpbmUuYXBwLnRhci5negpLR3ZtYURlQ05kN204cmRRVzlYWmwwQzBtaDREZEk3UlFNUFFBakRwb2pwWkcrWDI1Q1FKK0oyUnNHL1Y2K3IzQXEzWnZIS2ZEeThxWjA3cmNWSjJDZz09Cg==",
+      "url": "https://github.com/tomislavrupic/ALi-Imagine-site/releases/download/v0.9.37/ALi-Imagine.app.tar.gz"
     }
   }
 }
