@@ -28,4 +28,4 @@ repository so visitors do not need access to the private application source.
 
 ## Codex + Resolve skill
 
-The `#codex-resolve` section distributes `downloads/ali-resolve-skill-1.0.0.zip`. Reviewable source lives in `skills/ali-resolve/`. The archive contains only SKILL.md, scripts/shot.py, agents/openai.yaml, and README.md; do not include caches, personal receipts, credentials, or media. Rebuild the ZIP and SHA-256 file together when publishing a new version. The download is separate from the app's release/update feed.
+The `#codex-resolve` section distributes `downloads/ali-resolve-skill-1.4.1.zip`. Reviewable source lives in `skills/ali-resolve/`. The archive contains the eight files allowlisted by `scripts/build-skill.py`, including the FLUX references and guarded MCP helpers. Rebuild the ZIP and SHA-256 file together when publishing a new version. The download is separate from the app release/update feed; no credentials, receipts or media belong in it.

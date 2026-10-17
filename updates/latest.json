@@ -1,11 +1,11 @@
 {
-  "version": "0.9.35",
-  "notes": "Adds FLUX 3 Base Steps/CFG sliders with preserved defaults, fixes the model-selector layout and filters LoRAs by selected engine/model. Includes all prior FLUX 3, Qwen and Explore updates. ALi Resolve skill 1.4.0 is available separately. Run fresh FLUX Signal Tests after upgrading when prompted; weights are reused. Public H3 remains authorization-gated.",
-  "pub_date": "2026-10-15T20:05:55.695295Z",
+  "version": "0.9.36",
+  "notes": "Automatically expands FLUX 3 prompts through the selected Prompt Assist connection using official BFL caption instructions. Original Signal and full render caption are retained, with locked reference order/layouts and recorded-caption replay. Toggle off for prepared captions. Image weights and native worker are unchanged; no MLX speed improvement is claimed. Includes all prior updates. ALi Resolve skill 1.4.1 is available separately. Public H3 remains authorization-gated.",
+  "pub_date": "2026-10-17T06:05:27.830886Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTU1dDS0Vxc1pTUy82TFhWY2hQQXQ4QzRtY0J5Zi8rZTE5c3BaYjNWc3l5cWVBRGhoMWtKNUo0ZU1EOHBtNTkwYnkxVGtjMGNyVTdDUk1qc01IZlUybFo4Sk1hTWI3bndVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDk0NjU2CWZpbGU6QUxpLUltYWdpbmUuYXBwLnRhci5negpHOEVBaUExZzU2RXpKdzdodHVYQ09LVmlaSGNLNmh2bnFZN1dNOVE0Uk9kK0tsQUxScW9panMrbmR4V0FwaEc3OEtWeUl5b0c2RXltYUZNODE0NnBEZz09Cg==",
-      "url": "https://github.com/tomislavrupic/ALi-Imagine-site/releases/download/v0.9.35/ALi-Imagine.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTU1dDS0Vxc1pTUzdqVzVxOVNSYk1UVjdwNzhRY0F0TXJDZllVVEdzUTJ5RGVNbXZzUXY5Mmxzd1U0Ukc0aXZ2ZGtVeUpJUHpJWDZ6ZG9XZTE3VCsvWU1lbkNBZFpVb2dJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMjE3MTAxCWZpbGU6QUxpLUltYWdpbmUuYXBwLnRhci5negp4d25SVTE1Nnc2Mm9ZVWVYM0xYNm05RGxwM3NrZTdmQnl4ajZoREhvdVQ0ZlU2ZUhOTll1NThmdWFiU2xCc3NQWkx1UVpRWHliaWRERFJyUjN1RGxBQT09Cg==",
+      "url": "https://github.com/tomislavrupic/ALi-Imagine-site/releases/download/v0.9.36/ALi-Imagine.app.tar.gz"
     }
   }
 }
