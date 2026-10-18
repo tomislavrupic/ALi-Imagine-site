@@ -1,11 +1,11 @@
 {
-  "version": "0.9.38",
-  "notes": "Qwen images now have native generative QWEN 2\u00d7, preserving the originating Full or Unlocked model instead of using FLUX. Exact supported doubling, original source checksums, transparency, lineage and Redo are retained. Clean Upscale 2\u00d7 remains available for deterministic resizing. Generative detail can change; native 4K is not added. No model download or image-worker change. Includes improved optional Qwen Refine and all prior updates. Public H3 remains authorization-gated.",
-  "pub_date": "2026-10-17T21:05:37.085648Z",
+  "version": "0.9.39",
+  "notes": "Adds Qwen Image 2.1 Turbo Q8 as a separate native eight-step option with CFG 1, independent weights/runtime/certification, ordered editing, transparency and cache parity. Full/Unlocked remain unchanged. One 1K portrait comparison: 79s Turbo vs 263s Unlocked including validation/loading; results vary. Generate explains certification and refreshes readiness automatically. Includes all prior features. Qwen Research License: noncommercial research/evaluation.",
+  "pub_date": "2026-10-18T05:41:24.233149Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTU1dDS0Vxc1pTUzVQeUtHTEdsc1cwbGpud2kzOGk4RStaSzlNOG5qNHJ2N1RuaWhSa2RScHFwVjdQV1dEV2VpQTBPSHFiSVNHTWMyWi9GT01hY2VoUnRJRjFMSkxDZGcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMjY5ODM5CWZpbGU6QUxpLUltYWdpbmUuYXBwLnRhci5negpsTGkzLzAwak95bndkRzdLTlkvcFJOck10eVdGM2dTbmx6dDRGMDVOQUVPbmJzUmQ2ekZPNytLaFNTZWxPdGxPZ1hUWnJ5bTJ0WkdLOGJ5WUl3Z0pBQT09Cg==",
-      "url": "https://github.com/tomislavrupic/ALi-Imagine-site/releases/download/v0.9.38/ALi-Imagine.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTU1dDS0Vxc1pTUytHai90dUFsbzFOSlU3Q3VvR2VndHV0cVRsOFdXRUlwakprV0YzeU5hUFVPaUZid0Vma0l6R2NOc2JZQWxWNHhPYnpIMDIyOWtRWWUwd2N1bTdQU2dVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMzAyMDM2CWZpbGU6QUxpLUltYWdpbmUuYXBwLnRhci5negppSnM0RDlDZjJQK2hJNUs4Ui93aXhlYmJsOElmdjY0ZlRGYkJEZFhFajBjbkc5TUNmYUhkMmFJdDNpWEZJeS9ZWFJaRFlPaGNySnNreVMyQTBKUWhEQT09Cg==",
+      "url": "https://github.com/tomislavrupic/ALi-Imagine-site/releases/download/v0.9.39/ALi-Imagine.app.tar.gz"
     }
   }
 }
