@@ -440,7 +440,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .install-steps { display: grid; align-content: center; }
 .install-steps span { padding: 17px 0; border-bottom: 1px solid var(--line); color: #abb6ba; font: 10px/1.4 var(--mono); }
 .install-steps b { display: inline-block; width: 40px; color: var(--orange); }
-.download-actions { grid-column: 1 / -1; display: flex; flex-direction: column; align-items: flex-start; gap: 25px; }
+.download-actions { grid-column: 1 / -1; display: flex; flex-wrap: wrap; flex-direction: column; align-items: flex-start; gap: 25px; }
 .text-link { color: var(--muted); font: 10px/1 var(--mono); text-transform: uppercase; }
 .text-link:hover { color: var(--ink); }
 
