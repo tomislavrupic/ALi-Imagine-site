@@ -1,11 +1,11 @@
 {
-  "version": "0.9.40",
-  "notes": "Completes 0.9.40 previews and fixes stale Gallery results after background completion. Includes CEL Character Steps 2\u201360 (default 30), optional LTX brightness stabilization and native 2\u00d7 join matching (off by default), corrected single-image Explore orbit framing, and all earlier Qwen/FLUX/image/video workflows. Orbit remains experimental; reliable 360\u00b0 coverage and frozen geometry are unverified. Qwen Research License: noncommercial research/evaluation. Public H3 remains authorization-gated.",
-  "pub_date": "2026-10-20T07:24:53.871546Z",
+  "version": "0.9.41",
+  "notes": "Reference Looks use original images directly in Qwen. Select and order up to ten references in the main Concepts grid. Includes improved Look covers, duplicate style-card cleanup, Qwen 2\u00d7 continuity repair and training/review improvements. References can influence subjects and composition as well as style. Qwen Research License: noncommercial research/evaluation. Public H3 remains authorization-gated.",
+  "pub_date": "2026-10-24T19:19:29.164641Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTU1dDS0Vxc1pTU3poR3IyZkZ3b3JkZC9oZFJsQ1Y2VThvanZkL0NjaVpuZDFRdmd1MThpQi8xdXR1Sy9NNnAyNDcwWUw0ZkZMZkp2N2F3THF2a2F0ZU5NVFMwam91bVFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyNDgxMDYzCWZpbGU6QUxpLUltYWdpbmUuYXBwLnRhci5negpoNGV3a254YUVzNG10YjBjYVk4OGFwcXJjT252ZzJtZTVoZlZJUkcwSzFqaWRYVE9OQkowRGQ2N0pYTTMxeU1QM1NUY3c3MVpRbGJUM2x3Z2pzQnJEdz09Cg==",
-      "url": "https://github.com/tomislavrupic/ALi-Imagine-site/releases/download/v0.9.40/ALi-Imagine.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTU1dDS0Vxc1pTUzNPT1h2bkhJSkRMUVVncExWVHRnNnllNTJWcksxZjRzWGtMKzA4R3AreDh1cXVoWE5kcmdteHA5SS9yVXRiRGZNV2UyWCtqazEyUTFMZUZ6dWxkZFFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODY5NTQ1CWZpbGU6QUxpLUltYWdpbmUuYXBwLnRhci5negpHU0ZHUXR1UG9RdzRURnZXR05mVUlMSVg5V2QyVzlIZ1g4QWdES0FXSDUwMitXU3N2RzFFV3htRW0xWUpKTmh1K0ptN3gybGZOekRaMURVbzI0WTlCQT09Cg==",
+      "url": "https://github.com/tomislavrupic/ALi-Imagine-site/releases/download/v0.9.41/ALi-Imagine.app.tar.gz"
     }
   }
 }
