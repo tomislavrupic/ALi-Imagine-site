@@ -1,11 +1,11 @@
 {
-  "version": "0.9.41",
-  "notes": "Reference Looks use original images directly in Qwen. Select and order up to ten references in the main Concepts grid. Includes improved Look covers, duplicate style-card cleanup, Qwen 2\u00d7 continuity repair and training/review improvements. References can influence subjects and composition as well as style. Qwen Research License: noncommercial research/evaluation. Public H3 remains authorization-gated.",
-  "pub_date": "2026-10-24T19:19:29.164641Z",
+  "version": "0.9.42",
+  "notes": "LTX First + Last reports anchor preparation separately from Gemma encoding. Removes retired SeedVR2 worker commands. Retains reference Looks and Qwen 2\u00d7. Includes isolated App Store development scaffolding; this is the direct-download release. No model weights or ML dependency upgrades. Qwen Research License: noncommercial research/evaluation. Public H3 remains authorization-gated.",
+  "pub_date": "2026-10-27T06:13:53.597390Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTU1dDS0Vxc1pTUzNPT1h2bkhJSkRMUVVncExWVHRnNnllNTJWcksxZjRzWGtMKzA4R3AreDh1cXVoWE5kcmdteHA5SS9yVXRiRGZNV2UyWCtqazEyUTFMZUZ6dWxkZFFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyODY5NTQ1CWZpbGU6QUxpLUltYWdpbmUuYXBwLnRhci5negpHU0ZHUXR1UG9RdzRURnZXR05mVUlMSVg5V2QyVzlIZ1g4QWdES0FXSDUwMitXU3N2RzFFV3htRW0xWUpKTmh1K0ptN3gybGZOekRaMURVbzI0WTlCQT09Cg==",
-      "url": "https://github.com/tomislavrupic/ALi-Imagine-site/releases/download/v0.9.41/ALi-Imagine.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTU1dDS0Vxc1pTUzhWZzRIbFNHZ2VDZ2IxL2N0RjAyODVWS0JjaEZrSWpuV0VsUlJINHRJUEJlV1d5RE4xKzVNa2FHSDJKQlhkTWxLemJGWHZJdEgxVTVYZkJYNktRbkEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzMDgxNTczCWZpbGU6QUxpLUltYWdpbmUuYXBwLnRhci5negpKWGVUZXFqbGU3L215T3VIK1BsSVBFVWV0dk5RWE0vSmdpZE1zN2w2b2d4cDdLbVhlTnVuZjUwMXRPeitZRGFGM1A3bjV6QWRCVFczK3I3Qjc5b0tCQT09Cg==",
+      "url": "https://github.com/tomislavrupic/ALi-Imagine-site/releases/download/v0.9.42/ALi-Imagine.app.tar.gz"
     }
   }
 }
